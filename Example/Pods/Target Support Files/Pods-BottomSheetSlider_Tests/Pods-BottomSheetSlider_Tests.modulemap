@@ -1,0 +1,6 @@
+framework module Pods_BottomSheetSlider_Tests {
+  umbrella header "Pods-BottomSheetSlider_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

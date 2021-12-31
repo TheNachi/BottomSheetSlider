@@ -14,6 +14,7 @@
 		607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDE1AFB9204008FA782 /* LaunchScreen.xib */; };
 		607FACEC1AFB9204008FA782 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Tests.swift */; };
 		8B5EF8D7F3EE6529BC684057 /* Pods_BottomSheetSlider_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 44C3241038ABBC229F3B6682 /* Pods_BottomSheetSlider_Example.framework */; };
+		B6F615D2276CC28300AF3F4D /* DemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6F615D1276CC28300AF3F4D /* DemoViewController.swift */; };
 		DD79C2A8BC183F8DC1184BEC /* Pods_BottomSheetSlider_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 39F43607A7DFEF7284C801D2 /* Pods_BottomSheetSlider_Tests.framework */; };
 /* End PBXBuildFile section */
 
@@ -29,7 +30,7 @@
 
 /* Begin PBXFileReference section */
 		061C3C228E6CFDE1483513CA /* Pods-BottomSheetSlider_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BottomSheetSlider_Example.release.xcconfig"; path = "Target Support Files/Pods-BottomSheetSlider_Example/Pods-BottomSheetSlider_Example.release.xcconfig"; sourceTree = "<group>"; };
-		108C76E4CB0672419FBEB677 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		108C76E4CB0672419FBEB677 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		39F43607A7DFEF7284C801D2 /* Pods_BottomSheetSlider_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BottomSheetSlider_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		44C3241038ABBC229F3B6682 /* Pods_BottomSheetSlider_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BottomSheetSlider_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD01AFB9204008FA782 /* BottomSheetSlider_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BottomSheetSlider_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -43,10 +44,11 @@
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 		63818D14A90604B130624604 /* Pods-BottomSheetSlider_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BottomSheetSlider_Tests.debug.xcconfig"; path = "Target Support Files/Pods-BottomSheetSlider_Tests/Pods-BottomSheetSlider_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		684232F5897319CCA01F98AB /* BottomSheetSlider.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = BottomSheetSlider.podspec; path = ../BottomSheetSlider.podspec; sourceTree = "<group>"; };
+		684232F5897319CCA01F98AB /* BottomSheetSlider.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = BottomSheetSlider.podspec; path = ../BottomSheetSlider.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		6DA0F613051FFC0A9553CCF3 /* Pods-BottomSheetSlider_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BottomSheetSlider_Example.debug.xcconfig"; path = "Target Support Files/Pods-BottomSheetSlider_Example/Pods-BottomSheetSlider_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		B6F615D1276CC28300AF3F4D /* DemoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoViewController.swift; sourceTree = "<group>"; };
 		C73FF8E3EC558440C7D4F7AE /* Pods-BottomSheetSlider_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BottomSheetSlider_Tests.release.xcconfig"; path = "Target Support Files/Pods-BottomSheetSlider_Tests/Pods-BottomSheetSlider_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		DC9509EE6CC6BA3A021497E6 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		DC9509EE6CC6BA3A021497E6 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,6 +97,7 @@
 			children = (
 				607FACD51AFB9204008FA782 /* AppDelegate.swift */,
 				607FACD71AFB9204008FA782 /* ViewController.swift */,
+				B6F615D1276CC28300AF3F4D /* DemoViewController.swift */,
 				607FACD91AFB9204008FA782 /* Main.storyboard */,
 				607FACDC1AFB9204008FA782 /* Images.xcassets */,
 				607FACDE1AFB9204008FA782 /* LaunchScreen.xib */,
@@ -156,7 +159,6 @@
 				63818D14A90604B130624604 /* Pods-BottomSheetSlider_Tests.debug.xcconfig */,
 				C73FF8E3EC558440C7D4F7AE /* Pods-BottomSheetSlider_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -213,10 +215,12 @@
 				TargetAttributes = {
 					607FACCF1AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
+						DevelopmentTeam = M74ZCP24NH;
 						LastSwiftMigration = 0900;
 					};
 					607FACE41AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
+						DevelopmentTeam = M74ZCP24NH;
 						LastSwiftMigration = 0900;
 						TestTargetID = 607FACCF1AFB9204008FA782;
 					};
@@ -227,6 +231,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -331,6 +336,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B6F615D2276CC28300AF3F4D /* DemoViewController.swift in Sources */,
 				607FACD81AFB9204008FA782 /* ViewController.swift in Sources */,
 				607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */,
 			);
@@ -478,6 +484,7 @@
 			baseConfigurationReference = 6DA0F613051FFC0A9553CCF3 /* Pods-BottomSheetSlider_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = M74ZCP24NH;
 				INFOPLIST_FILE = BottomSheetSlider/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
@@ -493,6 +500,7 @@
 			baseConfigurationReference = 061C3C228E6CFDE1483513CA /* Pods-BottomSheetSlider_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = M74ZCP24NH;
 				INFOPLIST_FILE = BottomSheetSlider/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
@@ -507,6 +515,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 63818D14A90604B130624604 /* Pods-BottomSheetSlider_Tests.debug.xcconfig */;
 			buildSettings = {
+				DEVELOPMENT_TEAM = M74ZCP24NH;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -529,6 +538,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = C73FF8E3EC558440C7D4F7AE /* Pods-BottomSheetSlider_Tests.release.xcconfig */;
 			buildSettings = {
+				DEVELOPMENT_TEAM = M74ZCP24NH;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
 					"$(inherited)",

@@ -1,0 +1,6 @@
+framework module Pods_BottomSheetSlider_Example {
+  umbrella header "Pods-BottomSheetSlider_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

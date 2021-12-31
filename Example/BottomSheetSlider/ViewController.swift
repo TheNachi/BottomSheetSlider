@@ -1,24 +1,25 @@
-//
-//  ViewController.swift
-//  BottomSheetSlider
-//
-//  Created by TheNachi on 12/17/2021.
-//  Copyright (c) 2021 TheNachi. All rights reserved.
-//
 
 import UIKit
+import BottomSheetSlider
 
-class ViewController: UIViewController {
-
+@available(iOS 10.0, *)
+class ViewController: SliderBaseViewController {
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        self.setUpSlider()
     }
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
     }
+    
+    func setUpSlider() {
+        guard let slider = storyboard?.instantiateViewController(withIdentifier: "demoVC") as? DemoViewController else { return }
+        self.setUpSlider(sliderController: slider)
+        self.showSlider()
+    }
+    
 
 }
 

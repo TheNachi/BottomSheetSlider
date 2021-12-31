@@ -1,0 +1,6 @@
+framework module BottomSheetSlider {
+  umbrella header "BottomSheetSlider-umbrella.h"
+
+  export *
+  module * { export * }
+}
